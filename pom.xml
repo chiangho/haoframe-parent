@@ -13,12 +13,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>github.com.chiangho</groupId>
-	<artifactId>haoframe</artifactId>
+	<artifactId>haoframe.parent</artifactId>
 	<version>1.0</version>
 	<packaging>pom</packaging>
 
 
-	<name>chianghao.frame.parent</name>
+	<name>haoframe.parent</name>
 	<description>chianghao.frame parent is all chianghao.frame project parent</description>
 	<url>https://github.com/chiangho/haoframe-parent</url>
 
