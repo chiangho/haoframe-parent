@@ -7,6 +7,11 @@ chiang_hao
 Jh@943149625
 
 
+gps --gen-key
+gpg --list-key
+gpg --keyserver hkp://pool.sks-keyservers.net --send-keys AB8F2C56381811DD6BBA001862F7C721D4F08C09
+gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys AB8F2C56381811DD6BBA001862F7C721D4F08C09
+
 
 mvn clean deploy
 mvn clean deploy -P release
