@@ -14,12 +14,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.chiangho</groupId>
 	<artifactId>haoframe.parent</artifactId>
-	<version>1.0</version>
+	<version>1.1</version>
 	<packaging>pom</packaging>
 
 
 	<name>haoframe.parent</name>
-	<description>chianghao.frame parent is all chianghao.frame project parent</description>
+	<description>haoframe parent pom</description>
 	<url>https://github.com/chiangho/haoframe-parent</url>
 
 
@@ -348,6 +348,15 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<encoding>utf-8</encoding>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
             <!--Nexus Staging Maven插件是将组件部署到OSSRH并将其发布到Central Repository的推荐方法-->
 <!--             <plugin> -->
 <!--                 <groupId>org.sonatype.plugins</groupId> -->
